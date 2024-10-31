@@ -1,0 +1,80 @@
+@CHARSET "UTF-8";
+/* General styles */
+.float-breaker {
+	clear: both;
+}
+.hiddenjs {
+    display: none;
+}
+
+/* Google map fix */
+#rex-map img,
+#rex-multi-map img,
+#rex-multi-map-widget img {
+	max-width: none;
+}
+#rex-multi-map .listing-info-window {
+	font-size: 12px;
+}
+#rex-multi-map .listing-info-window h1 {
+	font-size: 14px;
+	font-weight: bold;
+}
+#rex-multi-map .listing-info-window img {
+	width: 75px;
+	height: auto;
+	float: left;
+	margin-right: 5px;
+}
+
+/* REX Table Styles */
+.rex-table tr:nth-child(odd) {
+	 background: #eeeeee;
+}
+.rex-table td {
+	padding: .2em .4em;
+}
+
+/* REX Listing Filter Form Styles */
+#rex-listing-filter-table input {
+	font-size: 1em;
+}
+#rex-listing-filter-table td {
+	padding: .2em .4em;
+	padding-left: 0;
+}
+
+/* REX Search Results Styles */
+.rex-listing-div {
+	float: left;
+}
+
+/* REX Listings view */
+.rex-listing h1.entry-title {
+	clear: both;
+  font-size: 26px;
+  padding-bottom: 0.3em;
+  padding-top: 15px;
+}
+.rex-listing {
+	border-bottom: 1px solid #DDDDDD;
+  margin: 0 0 1.625em;
+  padding: 0 0 1.625em;
+  position: relative;
+}
+.rex-listing.last {
+	border-bottom: none;
+}
+#rex-pagination {
+	text-align: center;
+}
+
+/* REX Sold/Leased ribbons */
+.ribbon-wrapper {
+	position: relative;
+}
+.rex-ribbon {
+	position: absolute;
+	top: 0;
+	left: 0;
+}

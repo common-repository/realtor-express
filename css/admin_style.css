@@ -1,0 +1,39 @@
+@CHARSET "UTF-8";
+
+div.wrap.rex-documentation {
+	max-width: 800px;
+}
+#listing-form-left td {
+	min-width: 100px;
+}
+#listing-form-right td {
+  min-width: 110px;
+}
+.listing-form-col {
+	width: 50%;
+	float: left;
+}
+.listing-form-col td {
+	vertical-align: top;
+}
+.float-breaker {
+	clear: both;
+}
+#rex-address-status {
+	font-weight: bold;
+	height: 30px;
+}
+.rex-admin-table,
+.rex-admin-table th,
+.rex-admin-table td {
+  border-width: 1px;
+  padding: 5px 10px;
+  border: 1px solid #bbb;
+}
+.rex-admin-table {
+  border-spacing: 2px;
+  border-collapse: collapse;
+}
+.rex-admin-table th {
+  background-color: #DFDFDF;
+}

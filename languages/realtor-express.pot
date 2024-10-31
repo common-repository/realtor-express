@@ -1,0 +1,481 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Realtor Express\n"
+"POT-Creation-Date: 2012-09-18 14:39-0700\n"
+"PO-Revision-Date: 2012-09-18 14:39-0700\n"
+"Last-Translator: Ty <ty@pulsarwebdesign.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.3\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;esc_html_e\n"
+"X-Poedit-Basepath: /Applications/MAMP/htdocs/development/realtor_express/wp-"
+"content/plugins/realtor-express\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: controllers/RexListingController.php:11
+msgid "Listing Information"
+msgstr ""
+
+#: controllers/RexListingController.php:95
+#: controllers/RexListingController.php:195
+#: controllers/RexListingController.php:226
+#: controllers/RexListingController.php:272 models/RexListing.php:343
+msgid "Sqm"
+msgstr ""
+
+#: controllers/RexListingController.php:95
+#: controllers/RexListingController.php:195
+#: controllers/RexListingController.php:226
+#: controllers/RexListingController.php:272 models/RexListing.php:343
+msgid "Sqft"
+msgstr ""
+
+#: includes/RexInit.php:192
+msgid "Search Listing Types"
+msgstr ""
+
+#: includes/RexInit.php:193
+msgid "All Listing Types"
+msgstr ""
+
+#: includes/RexInit.php:194
+msgid "Parent Listing Type"
+msgstr ""
+
+#: includes/RexInit.php:195
+msgid "Parent Listing Type:"
+msgstr ""
+
+#: includes/RexInit.php:196
+msgid "Edit Listing Type"
+msgstr ""
+
+#: includes/RexInit.php:197
+msgid "Update Listing Type"
+msgstr ""
+
+#: includes/RexInit.php:198
+msgid "Add New Listing Type"
+msgstr ""
+
+#: includes/RexInit.php:199
+msgid "New Listing Type Name"
+msgstr ""
+
+#: includes/RexInit.php:200
+msgid "Listing Type"
+msgstr ""
+
+#: includes/RexInit.php:216
+msgid "Search Listing Styles"
+msgstr ""
+
+#: includes/RexInit.php:217
+msgid "All Listing Styles"
+msgstr ""
+
+#: includes/RexInit.php:218
+msgid "Parent Listing Style"
+msgstr ""
+
+#: includes/RexInit.php:219
+msgid "Parent Listing Style:"
+msgstr ""
+
+#: includes/RexInit.php:220
+msgid "Edit Listing Style"
+msgstr ""
+
+#: includes/RexInit.php:221
+msgid "Update Listing Style"
+msgstr ""
+
+#: includes/RexInit.php:222
+msgid "Add New Listing Style"
+msgstr ""
+
+#: includes/RexInit.php:223
+msgid "New Listing Style Name"
+msgstr ""
+
+#: includes/RexInit.php:224
+msgid "Listing Style"
+msgstr ""
+
+#: includes/RexInit.php:247
+msgid "Add New Listing"
+msgstr ""
+
+#: includes/RexInit.php:248
+msgid "Edit Listing"
+msgstr ""
+
+#: includes/RexInit.php:249
+msgid "New Listing"
+msgstr ""
+
+#: includes/RexInit.php:250 widgets/RexMultiMapWidget.php:79
+msgid "All Listings"
+msgstr ""
+
+#: includes/RexInit.php:251
+msgid "View Listing"
+msgstr ""
+
+#: includes/RexInit.php:252
+msgid "Search Listings"
+msgstr ""
+
+#: includes/RexInit.php:253
+msgid "No listings found"
+msgstr ""
+
+#: includes/RexInit.php:254
+msgid "No listings found in Trash"
+msgstr ""
+
+#: includes/RexInit.php:256
+msgid "Listings"
+msgstr ""
+
+#: includes/RexSettings.php:28
+msgid "General Settings"
+msgstr ""
+
+#: includes/RexSettings.php:33
+msgid "Floor space units"
+msgstr ""
+
+#: includes/RexSettings.php:59
+msgid "Metric"
+msgstr ""
+
+#: includes/RexSettings.php:60
+msgid "Imperial"
+msgstr ""
+
+#: models/RexListing.php:61
+#, php-format
+msgid ""
+"REX_ERROR: The shortcode %s should only be used within a single listing "
+"context."
+msgstr ""
+
+#: models/RexListing.php:283
+msgid "Invalid address"
+msgstr ""
+
+#: models/RexListing.php:284
+msgid "Multiple results found. Please use a valid Google Maps address."
+msgstr ""
+
+#: models/RexListing.php:285
+msgid "Valid address"
+msgstr ""
+
+#: models/RexListing.php:286 views/RexAdminListingView.php:63
+msgid "Use the standard media uploader to attach images to this listing."
+msgstr ""
+
+#: models/RexListing.php:474
+msgid "For Sale"
+msgstr ""
+
+#: models/RexListing.php:475
+msgid "For Rent"
+msgstr ""
+
+#: models/RexListing.php:476
+msgid "Sold"
+msgstr ""
+
+#: models/RexListing.php:477
+msgid "Leased"
+msgstr ""
+
+#: models/RexListing.php:496 models/RexListing.php:512
+msgid "All"
+msgstr ""
+
+#: views/RexAdminDocView.php:12
+msgid "Documentation"
+msgstr ""
+
+#: views/RexAdminDocView.php:14
+msgid "Shortcodes:"
+msgstr ""
+
+#: views/RexAdminDocView.php:15
+msgid "TIP:"
+msgstr ""
+
+#: views/RexAdminDocView.php:15
+msgid ""
+"Instead of using the shortcodes directly, use the do_shortcode() function "
+"inside a template file (e.g. single-rex_listing.php). This way the widget "
+"will be displayed on every listing and will save you the trouble of adding "
+"shortcodes manually for every listing."
+msgstr ""
+
+#: views/RexAdminDocView.php:18
+msgid "Shortcode"
+msgstr ""
+
+#: views/RexAdminDocView.php:19
+msgid "Description"
+msgstr ""
+
+#: views/RexAdminDocView.php:20
+msgid "Parameters"
+msgstr ""
+
+#: views/RexAdminDocView.php:21
+msgid "Example"
+msgstr ""
+
+#: views/RexAdminDocView.php:25
+msgid "Displays the gallery for the current listing."
+msgstr ""
+
+#: views/RexAdminDocView.php:27
+msgid "gallery width in pixels"
+msgstr ""
+
+#: views/RexAdminDocView.php:28
+msgid "thumbnails width in pixels"
+msgstr ""
+
+#: views/RexAdminDocView.php:34
+msgid "Displays a Google map of the current listing."
+msgstr ""
+
+#: views/RexAdminDocView.php:36 views/RexAdminDocView.php:46
+msgid "map width in pixels"
+msgstr ""
+
+#: views/RexAdminDocView.php:37 views/RexAdminDocView.php:47
+msgid "height width in pixels"
+msgstr ""
+
+#: views/RexAdminDocView.php:43
+msgid "Displays a Google map with all (or some) of the listings."
+msgstr ""
+
+#: views/RexAdminDocView.php:45
+msgid "max number of listings to display"
+msgstr ""
+
+#: views/RexAdminDocView.php:53
+msgid "Displays a table with the current listing details."
+msgstr ""
+
+#: views/RexAdminDocView.php:55
+msgid "table width in pixels"
+msgstr ""
+
+#: views/RexAdminDocView.php:61
+msgid "Displays a paginated list of listings."
+msgstr ""
+
+#: views/RexAdminDocView.php:63
+msgid "number of listings to display per page"
+msgstr ""
+
+#: views/RexAdminDocView.php:69
+msgid "About listing types and styles:"
+msgstr ""
+
+#: views/RexAdminDocView.php:70
+msgid ""
+"Use listing types and style to help users find what they're looking for. "
+"Examples of listing types include \"Condo\", \"Duplex\", and \"Townhouse\". "
+"Examples of listing styles include \"Detached\" and \"Semi-detached\". Once "
+"you add a type or a style, it will be available in the listings filter "
+"(search) widget. If you remove all the terms of either the types or the "
+"styles, the corresponding field will not be available in the filter widget."
+msgstr ""
+
+#: views/RexAdminDocView.php:72
+msgid "Locale and price format"
+msgstr ""
+
+#: views/RexAdminDocView.php:73
+msgid ""
+"Currency and price format are determined by the locale setting of the site. "
+"In order to change the locale, set the WPLANG constant in wp-config.php to "
+"the appropriate locale: "
+msgstr ""
+
+#: views/RexAdminDocView.php:75
+msgid ""
+"For example, in order to get Realtor Express to use Canadian Dollars, set "
+"the WPLANG constant to \"en_CA\" and to get it to use British Pounds, set it "
+"to \"en_GB\". For more information visit "
+msgstr ""
+
+#: views/RexAdminDocView.php:75
+msgid "WordPress in Your Language"
+msgstr ""
+
+#: views/RexAdminDocView.php:77
+msgid "Widgets"
+msgstr ""
+
+#: views/RexAdminDocView.php:78
+msgid ""
+"Currently, Realtor Express provides 2 widgets: \"REX Listing Filter\" and "
+"\"REX Multi Map\". The listing filter provides a simple form to allow users "
+"to filter listings based on specific parameters such as number of bedrooms "
+"or listing type. The multi map displays a mini-map (Google Map) of the site "
+"listings."
+msgstr ""
+
+#: views/RexAdminListingView.php:16
+msgid "Address:"
+msgstr ""
+
+#: views/RexAdminListingView.php:20
+msgid "Address Status:"
+msgstr ""
+
+#: views/RexAdminListingView.php:21
+msgid "No address"
+msgstr ""
+
+#: views/RexAdminListingView.php:26
+msgid "Listing Number:"
+msgstr ""
+
+#: views/RexAdminListingView.php:31 views/RexWidgetListingFilterView.php:52
+msgid "Status:"
+msgstr ""
+
+#: views/RexAdminListingView.php:36 views/RexWidgetListingFilterView.php:25
+msgid "Price:"
+msgstr ""
+
+#: views/RexAdminListingView.php:41 views/RexWidgetListingFilterView.php:32
+msgid "Bedrooms:"
+msgstr ""
+
+#: views/RexAdminListingView.php:46 views/RexWidgetListingFilterView.php:36
+msgid "Baths:"
+msgstr ""
+
+#: views/RexAdminListingView.php:51
+msgid "Floor Space:"
+msgstr ""
+
+#: views/RexAdminListingView.php:56
+msgid "Year Built:"
+msgstr ""
+
+#: views/RexAdminListingView.php:77
+msgid "Formatted Address:"
+msgstr ""
+
+#: views/RexAdminListingView.php:81
+msgid "Locality:"
+msgstr ""
+
+#: views/RexAdminListingView.php:85
+msgid "Country:"
+msgstr ""
+
+#: views/RexAdminListingView.php:89
+msgid "Postal Code:"
+msgstr ""
+
+#: views/RexAdminListingView.php:94
+msgid "Latitude:"
+msgstr ""
+
+#: views/RexAdminListingView.php:98
+msgid "Longitude:"
+msgstr ""
+
+#: views/RexAdminListingView.php:103
+msgid "Map:"
+msgstr ""
+
+#: views/RexListingContentView.php:21
+msgid "Price: "
+msgstr ""
+
+#: views/RexListingContentView.php:25
+msgid "Bedrooms: "
+msgstr ""
+
+#: views/RexListingContentView.php:29
+msgid "Baths: "
+msgstr ""
+
+#: views/RexListingContentView.php:33
+msgid "Floor Space: "
+msgstr ""
+
+#: views/RexSettingsView.php:9
+msgid "Realtor Express Options"
+msgstr ""
+
+#: views/RexShortcodeDetailsView.php:14
+msgid "Listing Number"
+msgstr ""
+
+#: views/RexShortcodeDetailsView.php:18
+msgid "Price"
+msgstr ""
+
+#: views/RexShortcodeDetailsView.php:22
+msgid "Bedrooms"
+msgstr ""
+
+#: views/RexShortcodeDetailsView.php:26
+msgid "Baths"
+msgstr ""
+
+#: views/RexShortcodeDetailsView.php:30
+msgid "Floor Space"
+msgstr ""
+
+#: views/RexShortcodeDetailsView.php:34
+msgid "Year Built"
+msgstr ""
+
+#: views/RexShortcodeDetailsView.php:38
+msgid "Address"
+msgstr ""
+
+#: views/RexShortcodeMapView.php:19 views/RexShortcodeMultiMapView.php:19
+msgid "Map not available"
+msgstr ""
+
+#: views/RexWidgetListingFilterView.php:41
+msgid "Type:"
+msgstr ""
+
+#: views/RexWidgetListingFilterView.php:47
+msgid "Style:"
+msgstr ""
+
+#: views/RexWidgetListingFilterView.php:60
+msgid "Reset fields"
+msgstr ""
+
+#: widgets/RexListingFilterWidget.php:15
+msgid "Listing Filter Widget"
+msgstr ""
+
+#: widgets/RexListingFilterWidget.php:90
+msgid "Filter Listings"
+msgstr ""
+
+#: widgets/RexMultiMapWidget.php:12
+msgid "Multi Map Widget"
+msgstr ""
+
+#: widgets/RexMultiMapWidget.php:99
+msgid "This widget displays a Google Map of multiple listings."
+msgstr ""
